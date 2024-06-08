@@ -9,7 +9,7 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 const ParticlesComponent = (props) => {
 
-  const [init, setInit] = useState(false);
+  // const [init, setInit] = useState(false);
   // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -20,9 +20,11 @@ const ParticlesComponent = (props) => {
       //await loadFull(engine);
       await loadSlim(engine);
       //await loadBasic(engine);
-    }).then(() => {
-      setInit(true);
     });
+    // .then(() => {
+    //   setInit(true);
+    // })
+  
   }, []);
 
   const particlesLoaded = (container) => {
