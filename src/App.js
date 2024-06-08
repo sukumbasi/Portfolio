@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Home from "./components/Home"
+// import Home from "./components/Home"
 import './App.css'
 import ParticlesComponent from "./components/Particles"
 import TypedComponent from "./components/TypedComponent"
