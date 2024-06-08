@@ -3,7 +3,8 @@ import "./home.css"
 
 function Home() {
   return (
-    <div className='test'>*Coming soon......</div>
+    <div className='test'>Kaushal Khatiwada</div>
+    
   )
 }
 

@@ -1,9 +1,22 @@
 body{
-    background-color: grey;
+    background-color: white;
 }
 .test{
     text-align: center;
     font-size: 72px;
-    color: white;
+    color: black;
     margin-top: 200px;
 }
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Make sure particles are in the background */
+  }
+
+.Home {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
