@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+}
+.test{
+    text-align: center;
+    font-size: 72px;
+    color: white;
+    margin-top: 200px;
+}
