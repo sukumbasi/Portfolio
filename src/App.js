@@ -1,10 +1,9 @@
 import React, { Component } from "react"
-// import Home from "./components/Home"
+import Home from "./components/Home"
 import './App.css'
 import ParticlesComponent from "./components/Particles"
 import TypedComponent from "./components/TypedComponent"
 import Header from "./components/Header"
-// import Nav from "./components/Nav"
 
 class App extends Component {
   render() {
@@ -12,8 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <ParticlesComponent id="particles"/>
-        {/* <Nav/> */}
-        {/* <Home/> */}
+        <Home/>
         <TypedComponent/>
       </div>
     )

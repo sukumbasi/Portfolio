@@ -3,9 +3,9 @@ body{
 }
 .test{
     text-align: center;
-    font-size: 72px;
+    font-size: 30px;
     color: black;
-    margin-top: 200px;
+    margin-top: 10px;
 }
 #tsparticles {
     position: absolute;
