@@ -2,10 +2,10 @@ body{
     background-color: white;
 }
 .test{
-    text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #tsparticles {
     position: absolute;
@@ -13,7 +13,6 @@ body{
     height: 100%;
     z-index: -1; /* Make sure particles are in the background */
   }
-
 .Home {
     text-align: center;
     position: relative;
