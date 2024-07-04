@@ -8,6 +8,7 @@ import Header from "./components/Header"
 // import RequestCvButton from './components/cv_request';
 import ProfilePicture from "./components/profile_pic"
 import Nav from "./components/nav"
+import Footer from "./components/Footer"
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <ProfilePicture />
         <TypedComponent/>
         {/* <RequestCvButton /> */}
+        <Footer />
       </div>
     )
   }
