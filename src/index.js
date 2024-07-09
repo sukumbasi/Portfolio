@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //service worker
-// import * as serviceWorker from './serviceworker'
+import * as serviceWorker from './serviceworker'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +16,12 @@ root.render(
 
 //register service worker
 //Changed from 'unregister' to 'register'
-// serviceWorker.register()
+// Register the service worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+      serviceWorker.register();
+  });
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

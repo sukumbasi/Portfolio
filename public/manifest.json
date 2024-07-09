@@ -1,0 +1,14 @@
+{
+    "name": "KK",
+    "short_name": "KK",
+    "description": "Portfolio Website",
+    "start_url": "/",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "standalone", 
+    "icons": [
+        {   "src": "kk.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }]
+  }
