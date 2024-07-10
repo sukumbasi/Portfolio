@@ -1,6 +1,13 @@
 let CACHE_NAME = 'kk';
 const urlsToCache = [
-    '/'
+    '/',
+    '/index.html',
+    '/manifest.json',
+    '/serviceworker.js',
+    '/kk.png',
+    '/favicon.png',
+    '/static/js/bundle.js',
+    '/pp.png'
 ];
 
 // Install event
@@ -42,8 +49,10 @@ self.addEventListener('fetch', function(event) {
         caches.match(event.request)
         .then(function(response) {
             if (response) {
+                console.log('From cache',event.request.url)
                 return response;
             }
+            console.log('From Online',event.request.url)
             return fetch(event.request);
         })
     );
