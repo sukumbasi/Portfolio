@@ -5,6 +5,8 @@ const urlsToCache = [
     '/manifest.json',
     '/kk.png',
     '/favicon.png',
+    '/static/css/main.c2ec1f5a.css',
+    '/static/js/main.js',
     // '/static/js/bundle.js',
     '/static/media/pp.12f1dcaa4b100f744ec4.png',
     '/static/media/1111.4069e762625fdc819250.png'
