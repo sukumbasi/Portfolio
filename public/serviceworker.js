@@ -6,8 +6,8 @@ const urlsToCache = [
     '/kk.png',
     '/favicon.png',
     '/static/js/bundle.js',
-    '/pp.png',
-    '/1111.png'
+    '/static/media/pp.12f1dcaa4b100f744ec4.png',
+    '/static/media/1111.4069e762625fdc819250.png'
 ];
 
 // Install event
