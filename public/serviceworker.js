@@ -3,11 +3,12 @@ const urlsToCache = [
     '/',
     '/index.html',
     '/manifest.json',
-    '/serviceworker.js',
+    // '/serviceworker.js',
     '/kk.png',
     '/favicon.png',
     '/static/js/bundle.js',
-    '/pp.png'
+    '/pp.png',
+    '/1111.png'
 ];
 
 // Install event
