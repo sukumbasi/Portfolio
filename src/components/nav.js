@@ -13,6 +13,7 @@ const Nav = () => {
             <div className="navbar-center">
                 <ul className="navbar-links">
                     <li><a href="https://blog.kaushalkhatiwada.com.np">BLOG</a></li>
+                    <li><a href="https://learn.kaushalkhatiwada.com.np">COURSE</a></li>
                 </ul>
             </div>
             <div className="navbar-right">
